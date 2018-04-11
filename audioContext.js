@@ -1,8 +1,8 @@
 // Create namespace.
-com.littleDebugger.namespacer.createNamespace("com.littleDebugger.daw");
+littleDebugger.common.namespacer.createNamespace("littleDebugger.audioProcessing.helpers");
 
 // The is the visualiser.
-com.littleDebugger.daw.getAudioContext = (function () {
+littleDebugger.audioProcessing.helpers.getAudioContext = (function () {
     // Support Web Audio API in different supported broswers.
     // Taken from http://chimera.labs.oreilly.com/books/1234000001552/ch01.html#s01_2
     var getAudioContext = function () {

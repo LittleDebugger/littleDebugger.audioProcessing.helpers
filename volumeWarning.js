@@ -1,8 +1,8 @@
 // Create namespace.
-com.littleDebugger.namespacer.createNamespace("com.littleDebugger.daw");
+littleDebugger.common.namespacer.createNamespace("littleDebugger.audioProcessing.helpers");
 
 // The volume warning handler.
-com.littleDebugger.daw.volumeWarning = function (callback) {
+littleDebugger.audioProcessing.helpers.volumeWarning = function (callback) {
     var showWarning = true;
 
     var that = {};
