@@ -7,4 +7,4 @@ Dependencies:
 None
 
 Add to project:
-git submodule add https://github.com/LittleDebugger/littleDebugger.ui.common "./Scripts/littleDebugger/audioProcessing/helpers"
+git submodule add https://github.com/LittleDebugger/littleDebugger.audioProcessing.helpers "./Scripts/littleDebugger/audioProcessing/helpers"
